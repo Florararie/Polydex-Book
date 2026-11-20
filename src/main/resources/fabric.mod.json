@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "polydex_book",
+	"version": "${version}",
+	"name": "Polydex Book",
+	"description": "Adds a craftable book that opens the Polydex recipe menu when used.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"eu.pb4.polydexbook.PolydexBookMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*",
+		"polydex": ">=1.9.0"
+	}
+}

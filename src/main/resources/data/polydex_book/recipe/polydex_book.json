@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "polydex_book",
+  "ingredients": [
+    "minecraft:book",
+    "#minecraft:leaves"
+  ],
+  "result": {
+    "id": "minecraft:book",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "minecraft:knowledge_book",
+      "minecraft:custom_name": {
+        "text": "Polydex",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "polydex_book": true
+      },
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}
